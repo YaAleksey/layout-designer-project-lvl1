@@ -1,7 +1,162 @@
 /** CSS STYLE **/
+@font-face {
+  font-family: Neucha;
+  src: url("./fonts/ofont.ru_Neucha.ttf");
+}
 
-.hello {
+@font-face {
+  font-family: OpenSans;
+  src: url("./fonts/OpenSans.ttf");
+}
+
+:root {
+  --orange-mark: #fe8a02;
+  --white-color: #fff;
+  --brown-color: #b09a81;
+  --blue-color: #1085c5;
+  --dark-color: #2a2626;
+  --dark-light-color: #908d8b;
+  --main-color-trans: #d7ccc0;
+  --main-color-light: #f5f4f0;
+  --main-color-dark: #42413c;
+}
+
+body {
+  color: var(--dark-color);
+  font: 16px/1.6em OpenSans, sans-serif;
+
+  font-weight: 400;
+}
+
+.header-section {
+  position: relative;
+
+  margin: 0;
+}
+
+.bg::before {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  z-index: 1;
+
+  width: 100%;
+  height: 100%;
+
+  vertical-align: middle;
+
+  background-image: url("../../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 0.1;
+
+  content: "";
+}
+
+.content-section {
+  position: relative;
+
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 100px 0;
+
+  overflow: hidden;
+
+  background-color: var(--main-color-light);
+}
+
+.title {
+  color: var(--dark-color);
+  font-weight: 400;
+  font-size: 72px;
+  font-family: Neucha, sans-serif;
+  font-style: normal;
+
+  line-height: 72px;
+}
+
+.title span {
+  color: var(--orange-mark);
+
+  line-height: 86.4px;
+}
+
+.header-title {
+  position: relative;
+
+  z-index: 3;
+
+  width: 100%;
+
+  padding: 0 0 0 165px;
+}
+
+.header-image {
+  position: absolute;
+  top: 50px;
+  right: -75px;
+
+  z-index: 2;
+
+  height: 525px;
+}
+
+.header-columns-row {
+  display: flex;
+
+  margin: 0 -15px;
+  padding: 200px 165px 0;
+}
+
+.header-columns-column1 {
+  z-index: 3;
+
+  flex: 0 0 50%;
+
+  padding-right: 15px;
+}
+
+.header-columns-column2 {
+  z-index: 3;
+
+  flex: 0 0 50%;
+  padding-left: 15px;
+}
+
+.column2-body p:nth-of-type(2) {
+  margin-bottom: 40px;
+}
+
+.column2-btn {
   display: block;
+  box-sizing: border-box;
 
-  color: #fff;
+  width: 148px;
+  height: 49px;
+
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  text-align: center;
+
+  background-color: var(--orange-mark);
+}
+
+.column2-btn a {
+  text-decoration: none;
+}
+
+.text-column2-btn {
+  color: var(--white-color);
+  font-weight: 700;
+  line-height: 160%;
+
+  text-transform: uppercase;
+}
+
+.column2-btn:hover {
+  cursor: pointer;
 }

@@ -120,7 +120,7 @@ body {
 }
 
 .header-columns-column2 {
- 
+  z-index: 3;
 
   flex: 0 0 50%;
   padding-left: 15px;

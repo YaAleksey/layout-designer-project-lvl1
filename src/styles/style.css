@@ -93,8 +93,8 @@ header {
 
 .header-image {
   position: absolute;
-  top: 50px;
-  right: -75px;
+  top: 55px;
+  right: -270px;
 
   z-index: 2;
 
@@ -104,7 +104,7 @@ header {
 .header-columns-row {
   display: flex;
   margin: 0 -15px;
-  padding: 200px 0 0;
+  padding: 170px 0 0;
   overflow: hidden;
 }
 
@@ -269,5 +269,5 @@ header {
   top: -10px;
   left: 10px;
 
-  cursor: pointer;
+  
 }

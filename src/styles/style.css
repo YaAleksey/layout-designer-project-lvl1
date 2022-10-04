@@ -1,11 +1,14 @@
 /** CSS STYLE **/
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
+
   border: 0;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -111,9 +114,12 @@ div.content-width {
 }
 
 .header-columns-row {
+  position: relative;
+  z-index: 2;
+
   display: flex;
   margin: 0 -15px;
-  padding: 170px 0 0;
+  padding: 185px 0 0;
   overflow: hidden;
 }
 
@@ -191,13 +197,15 @@ div.content-width {
 }
 
 .video-content {
-  z-index: 2;
   position: relative;
+  z-index: 2;
+
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .nav-content-section {
   z-index: 1;
+
   max-width: 1440px;
   padding: 200px 165px 80px;
 
@@ -285,7 +293,7 @@ div.content-width {
 .flex-img {
   align-items: center;
 
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .flex-block {
@@ -305,15 +313,15 @@ div.content-width {
 }
 
 .block-text {
-  font-size: 34px;
-  line-height: 41px;
   padding-top: 30px;
+
+  font-size: 34px;
+
+  line-height: 41px;
 }
 
 .card-body-tab {
   background-color: var(--brown-color);
-
-  
 }
 
 .card-tab-text {
@@ -327,7 +335,7 @@ div.content-width {
 .flex-two-columns {
   display: flex;
 
-  margin: 20px 0 15px;
+  margin: 20px 0 0;
 }
 
 .card-column1 {
@@ -338,6 +346,7 @@ div.content-width {
 }
 
 .card-column1-text {
+  line-height: 26px;
 }
 
 .card-column2 {
@@ -345,8 +354,8 @@ div.content-width {
 
   margin: 0;
   padding-left: 15px;
-
 }
 
 .card-column2-text {
+  line-height: 26px;
 }

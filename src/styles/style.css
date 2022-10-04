@@ -1,4 +1,14 @@
 /** CSS STYLE **/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: Neucha;
   src: url("./fonts/ofont.ru_Neucha.ttf");
@@ -40,8 +50,6 @@ header {
   top: 0;
   left: 0;
 
-  z-index: 1;
-
   width: 100%;
   height: 100%;
 
@@ -56,15 +64,20 @@ header {
   content: "";
 }
 
+.content-width {
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+div.content-width {
+  position: relative;
+}
+
 .content-section {
   position: relative;
 
-  box-sizing: border-box;
-  max-width: 1440px;
-  margin: 0 auto;
   padding: 100px 165px;
-
-  overflow: hidden;
 
   background-color: var(--main-color-light);
 }
@@ -85,8 +98,6 @@ header {
 }
 
 .header-title-text {
-  z-index: 3;
-
   font-size: 72px;
   line-height: 86.4px;
 }
@@ -95,8 +106,6 @@ header {
   position: absolute;
   top: 55px;
   right: -270px;
-
-  z-index: 2;
 
   height: 525px;
 }
@@ -109,7 +118,6 @@ header {
 }
 
 .header-columns-column1 {
-  z-index: 3;
 
   flex: 0 0 50%;
 
@@ -117,7 +125,6 @@ header {
 }
 
 .header-columns-column2 {
-  z-index: 3;
 
   flex: 0 0 50%;
   padding-left: 15px;
@@ -129,7 +136,6 @@ header {
 
 .column2-btn {
   display: block;
-  box-sizing: border-box;
 
   width: 148px;
   height: 49px;
@@ -164,9 +170,6 @@ header {
 }
 
 .video-section-content {
-  box-sizing: border-box;
-  max-width: 1440px;
-  margin: 0 auto;
   padding: 100px 165px 0;
 
   text-align: center;
@@ -188,13 +191,14 @@ header {
 }
 
 .video-content {
+  z-index: 2;
+  position: relative;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .nav-content-section {
-  box-sizing: border-box;
-  width: 1440px;
-  margin: 0 auto;
+  z-index: 1;
+  max-width: 1440px;
   padding: 200px 165px 80px;
 
   background-color: var(--main-color-dark);
@@ -214,12 +218,10 @@ header {
 }
 
 .nav-column-item {
-  box-sizing: border-box;
   padding: 24px;
 }
 
 .nav-column-item-title {
-  box-sizing: border-box;
   padding: 24px 0 0;
 }
 
@@ -268,6 +270,83 @@ header {
   position: relative;
   top: -10px;
   left: 10px;
+}
+
+.card-content {
+  padding: 100px 165px;
+}
+
+.flex-img-block {
+  display: flex;
+
+  padding-bottom: 100px;
+}
+
+.flex-img {
+  align-items: center;
+
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.flex-block {
+  padding-left: 30px;
+}
+
+.small-title {
+  color: var(--dark-light-color);
+
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+.big-title {
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.block-text {
+  font-size: 34px;
+  line-height: 41px;
+  padding-top: 30px;
+}
+
+.card-body-tab {
+  background-color: var(--brown-color);
 
   
+}
+
+.card-tab-text {
+  padding: 5px 0 5px 10px;
+
+  color: var(--white-color);
+
+  font-weight: 700;
+}
+
+.flex-two-columns {
+  display: flex;
+
+  margin: 20px 0 15px;
+}
+
+.card-column1 {
+  flex: 0 1 50%;
+
+  margin: 0;
+  padding-right: 15px;
+}
+
+.card-column1-text {
+}
+
+.card-column2 {
+  flex: 0 1 50%;
+
+  margin: 0;
+  padding-left: 15px;
+
+}
+
+.card-column2-text {
 }

@@ -386,19 +386,11 @@ div.content-width {
   padding-right: 15px;
 }
 
-.card-column1-text {
-  line-height: 26px;
-}
-
 .card-column2 {
   flex: 0 1 50%;
 
   margin: 0;
   padding-left: 15px;
-}
-
-.card-column2-text {
-  line-height: 26px;
 }
 
 .footer-content-section {

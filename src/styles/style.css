@@ -42,12 +42,22 @@
   border: 0;
 }
 
-h1,
 h2 {
   color: var(--orange-mark);
   font-weight: 400;
   font-size: 60px;
+  font-family: Neucha, sans-serif;
+  font-style: normal;
   line-height: 72px;
+}
+
+p {
+  margin: 16px 0;
+}
+
+ul {
+  margin: 16px 0;
+  padding-left: 40px;
 }
 
 body,

@@ -358,6 +358,9 @@ div.content-width {
   padding: 5px 0 5px 10px;
 
   font-weight: 700;
+  font-size: 14px;
+
+  line-height: 17px;
 }
 
 .wh-color {

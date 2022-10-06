@@ -1,10 +1,11 @@
 /** CSS STYLE **/
 
-/* * {
+* {
   margin: 0;
   padding: 0;
+
   border: 0;
-} */
+}
 
 *,
 *::before,
@@ -41,8 +42,12 @@
   border: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: var(--orange-mark);
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
 }
 
 body,

@@ -377,6 +377,7 @@ div.content-width {
 
 .flex-two-columns {
   display: flex;
+  padding-top: 20px;
 }
 
 .card-column1 {

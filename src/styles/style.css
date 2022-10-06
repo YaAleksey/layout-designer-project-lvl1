@@ -375,3 +375,105 @@ div.content-width {
 .card-column2-text {
   line-height: 26px;
 }
+
+.footer-content-section {
+  padding: 100px 165px;
+}
+
+.footer-flex-block {
+  display: flex;
+
+  padding: 55px;
+
+  background-color: var(--main-color-dark);
+}
+
+.footer-flex-column1 {
+  flex: 0 0 50%;
+}
+
+.column1-title {
+  font-size: 34px;
+  line-height: 120%;
+}
+
+.footer-flex-column2 {
+  display: flex;
+  flex: 0 0 50%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-form-name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.form-input-block {
+  position: relative;
+
+  margin-top: 9px;
+}
+
+input.text {
+  width: 430px;
+  height: 50px;
+
+  padding: 0 15px;
+}
+
+.img-send {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 70px;
+  height: 50px;
+
+  background-color: var(--orange-mark);
+}
+
+.img-send::before {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+
+  display: inline-block;
+
+  width: 20px;
+  height: 20px;
+
+  background-image: url("../../images/send.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  content: "";
+}
+
+.footer-subscribe-link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+}
+
+.footer-source {
+  padding: 16px 0;
+}
+
+.source-link {
+  color: var(--blue-color);
+}
+
+.hexlet-link {
+  color: var(--blue-color);
+}
+
+.footer-signed-block {
+  padding-top: 60px;
+
+  font-size: 14px;
+  line-height: 22.4px;
+
+  text-align: center;
+}

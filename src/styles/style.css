@@ -376,9 +376,9 @@ div.content-width {
   line-height: 26px;
 }
 
-/* .footer-content-section {
+.footer-content-section {
   padding: 100px 165px;
-} */
+}
 
 .footer-flex-block {
   display: flex;

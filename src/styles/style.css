@@ -401,16 +401,19 @@ div.content-width {
 .footer-flex-block {
   display: flex;
 
-  padding: 55px;
-
   background-color: var(--main-color-dark);
 }
 
 .footer-flex-column1 {
+  display: flex;
   flex: 0 0 50%;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .column1-title {
+  padding: 55px 0 55px 55px;
+
   font-size: 34px;
   line-height: 120%;
 }
@@ -420,12 +423,19 @@ div.content-width {
   flex: 0 0 50%;
   flex-direction: column;
   justify-content: center;
+
+  padding-right: 55px;
 }
 
 .footer-form-name {
   font-weight: 400;
   font-size: 18px;
   line-height: 160%;
+}
+
+p.footer-form-name {
+  margin: 0;
+  padding: 0;
 }
 
 .form-input-block {

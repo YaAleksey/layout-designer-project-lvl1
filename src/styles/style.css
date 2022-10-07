@@ -123,6 +123,9 @@ div.content-width {
 }
 
 .header-title-text {
+  position: relative;
+  z-index: 2;
+
   font-size: 72px;
   line-height: 86.4px;
 }
@@ -130,7 +133,8 @@ div.content-width {
 .header-image {
   position: absolute;
   top: 55px;
-  right: -270px;
+  right: -74px;
+  z-index: 1;
 
   height: 525px;
 }

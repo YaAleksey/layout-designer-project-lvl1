@@ -372,6 +372,9 @@ div.content-width {
 }
 
 .card-tab-text {
+  position: relative;
+  z-index: 2;
+
   padding: 5px 0 5px 10px;
 
   font-weight: 700;

@@ -326,6 +326,14 @@ div.content-width {
   padding-left: 30px;
 }
 
+.letter-sp {
+  letter-spacing: 1.5px;
+}
+
+.letter-sp-1 {
+  letter-spacing: 0.8px;
+}
+
 .flex-block-pd-r-30 {
   padding-right: 30px;
 }

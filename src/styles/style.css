@@ -307,7 +307,7 @@ div.content-width {
 }
 
 .card-content {
-  padding: 100px 165px;
+  padding: 99px 165px 100px;
 }
 
 .flex-img-block {

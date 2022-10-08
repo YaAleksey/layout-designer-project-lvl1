@@ -200,7 +200,7 @@ div.content-width {
 }
 
 .video-section {
-  margin: 0 0 -100px;
+  margin: 0 0 -116px;
   padding-top: 16px;
 }
 
@@ -229,6 +229,8 @@ div.content-width {
   position: relative;
   z-index: 2;
 
+  padding-bottom: 16px;
+
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
@@ -236,7 +238,7 @@ div.content-width {
   z-index: 1;
 
   max-width: 1440px;
-  padding: 200px 165px 80px;
+  padding: 216px 165px 80px;
 
   background-color: var(--main-color-dark);
 }

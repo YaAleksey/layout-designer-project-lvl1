@@ -371,6 +371,10 @@ div.content-width {
   background-color: var(--white-color);
 }
 
+.white-ligh-bg {
+  background-color: var(--main-color-light);
+}
+
 .card-tab-text {
   position: relative;
   z-index: 2;

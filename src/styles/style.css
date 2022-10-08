@@ -302,11 +302,11 @@ div.content-width {
   margin-left: 15px;
 }
 
-.nav-card:hover {
+/* .nav-card:hover {
   position: relative;
   top: -10px;
   left: 10px;
-}
+} */
 
 .card-content {
   padding: 100px 165px;

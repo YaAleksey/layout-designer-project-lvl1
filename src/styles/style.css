@@ -236,7 +236,7 @@ div.content-width {
   z-index: 1;
 
   max-width: 1440px;
-  padding: 216px 165px 80px;
+  padding: 200px 165px 80px;
 
   background-color: var(--main-color-dark);
 }
